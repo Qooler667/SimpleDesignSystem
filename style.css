@@ -1,0 +1,36 @@
+body {
+    width: 750px;
+    margin: auto;
+    border: 1px solid rebeccapurple;
+    text-align: center;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: "Sevillana-Regular";
+    src: url(Fonts\Sevillana-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Danscing_Script";
+    src: url(Fonts\Dancing_Script\DancingScript-VariableFont_wght.ttf);
+}
+
+h1 {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+h2 {
+    font-family: "Sevillana";
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: "Danscing_Script";
+    font-size: 45px;
+    font-style: italic;
+    f
+}
