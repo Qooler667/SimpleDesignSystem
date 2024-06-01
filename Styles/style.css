@@ -8,13 +8,24 @@
 
 @font-face {
     font-family: "Oxygen";
-    src: url(Fonts\Oxygen\Oxygen-Regular.ttf);
+    src: local("Oxygen"),
+        url(../Fonts/Oxygen/Oxygen-Regular.ttf);
+}
+
+@font-face {
     font-family: "Poppins";
-    src: url(Fonts\Poppins\Poppins-Italic.ttf);
+    src: url(../Fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
     font-family: "Roboto";
-    src: url(Fonts\Poppins\Poppins-Regular.ttf);
+    src: url(../Fonts/Roboto/Roboto-Regular.ttf);
+
+}
+
+@font-face {
     font-family: "Lato";
-    src: url(Fonts\Lato\Lato-LightItalic.ttf);
+    src: url(../Fonts/Lato/Lato-Regular.ttf);
 }
 
 .wrapper {
@@ -43,8 +54,7 @@ h2 {
 .state_default,
 .state_hover,
 .link_text {
-    font-family: roboto;
-    font-weight: regular;
+    font-family: "Roboto";
     font-size: 16px;
     color: #141414;
     display: block;
@@ -58,7 +68,7 @@ h2 {
 .color_number {
     padding-top: 5px;
     line-height: 20px;
-    font-family: roboto;
+    font-family: "Roboto";
     font-weight: medium;
     font-size: 12px;
 }
@@ -208,7 +218,7 @@ small {
 }
 
 .item_list {
-    font-family: roboto;
+    font-family: "roboto";
     font-weight: medium;
     font-size: 12px;
     margin-bottom: 30px;
@@ -229,7 +239,7 @@ dl {
     border: none;
     color: #141414;
     background-color: #ffffff;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: medium;
     font-weight: 12;
     letter-spacing: 8%;
@@ -240,7 +250,7 @@ dl {
     min-height: 50px;
     margin-left: 40px;
     margin-bottom: 30px;
-    font-family: Oxygen;
+    font-family: "Oxygen";
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 10%;
